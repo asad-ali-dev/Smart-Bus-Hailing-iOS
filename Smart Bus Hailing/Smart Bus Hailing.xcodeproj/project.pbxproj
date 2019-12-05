@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D776562A2397EFAE00845609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77656292397EFAE00845609 /* AppDelegate.swift */; };
+		D776562C2397EFAE00845609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776562B2397EFAE00845609 /* ViewController.swift */; };
+		D776562F2397EFAE00845609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D776562D2397EFAE00845609 /* Main.storyboard */; };
+		D77656312397EFB200845609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77656302397EFB200845609 /* Assets.xcassets */; };
+		D77656342397EFB200845609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77656322397EFB200845609 /* LaunchScreen.storyboard */; };
+		D776563F2397EFB200845609 /* Smart_Bus_HailingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776563E2397EFB200845609 /* Smart_Bus_HailingTests.swift */; };
+		D776564A2397EFB200845609 /* Smart_Bus_HailingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77656492397EFB200845609 /* Smart_Bus_HailingUITests.swift */; };
+		D77656592397F65700845609 /* RideInfoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77656572397F65700845609 /* RideInfoCellTableViewCell.swift */; };
+		D776565A2397F65700845609 /* RideInfoCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77656582397F65700845609 /* RideInfoCellTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D776563B2397EFB200845609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D776561E2397EFAE00845609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77656252397EFAE00845609;
+			remoteInfo = "Smart Bus Hailing";
+		};
+		D77656462397EFB200845609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D776561E2397EFAE00845609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77656252397EFAE00845609;
+			remoteInfo = "Smart Bus Hailing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D77656262397EFAE00845609 /* Smart Bus Hailing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Bus Hailing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77656292397EFAE00845609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D776562B2397EFAE00845609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D776562E2397EFAE00845609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D77656302397EFB200845609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77656332397EFB200845609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D77656352397EFB200845609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776563A2397EFB200845609 /* Smart Bus HailingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Bus HailingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776563E2397EFB200845609 /* Smart_Bus_HailingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Bus_HailingTests.swift; sourceTree = "<group>"; };
+		D77656402397EFB200845609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77656452397EFB200845609 /* Smart Bus HailingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Bus HailingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77656492397EFB200845609 /* Smart_Bus_HailingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Bus_HailingUITests.swift; sourceTree = "<group>"; };
+		D776564B2397EFB200845609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77656572397F65700845609 /* RideInfoCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideInfoCellTableViewCell.swift; sourceTree = "<group>"; };
+		D77656582397F65700845609 /* RideInfoCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideInfoCellTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77656232397EFAE00845609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77656372397EFB200845609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77656422397EFB200845609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D776561D2397EFAE00845609 = {
+			isa = PBXGroup;
+			children = (
+				D77656282397EFAE00845609 /* Smart Bus Hailing */,
+				D776563D2397EFB200845609 /* Smart Bus HailingTests */,
+				D77656482397EFB200845609 /* Smart Bus HailingUITests */,
+				D77656272397EFAE00845609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D77656272397EFAE00845609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77656262397EFAE00845609 /* Smart Bus Hailing.app */,
+				D776563A2397EFB200845609 /* Smart Bus HailingTests.xctest */,
+				D77656452397EFB200845609 /* Smart Bus HailingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77656282397EFAE00845609 /* Smart Bus Hailing */ = {
+			isa = PBXGroup;
+			children = (
+				D77656292397EFAE00845609 /* AppDelegate.swift */,
+				D776562B2397EFAE00845609 /* ViewController.swift */,
+				D776565B2397F66C00845609 /* Cells */,
+				D776562D2397EFAE00845609 /* Main.storyboard */,
+				D77656302397EFB200845609 /* Assets.xcassets */,
+				D77656322397EFB200845609 /* LaunchScreen.storyboard */,
+				D77656352397EFB200845609 /* Info.plist */,
+			);
+			path = "Smart Bus Hailing";
+			sourceTree = "<group>";
+		};
+		D776563D2397EFB200845609 /* Smart Bus HailingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D776563E2397EFB200845609 /* Smart_Bus_HailingTests.swift */,
+				D77656402397EFB200845609 /* Info.plist */,
+			);
+			path = "Smart Bus HailingTests";
+			sourceTree = "<group>";
+		};
+		D77656482397EFB200845609 /* Smart Bus HailingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D77656492397EFB200845609 /* Smart_Bus_HailingUITests.swift */,
+				D776564B2397EFB200845609 /* Info.plist */,
+			);
+			path = "Smart Bus HailingUITests";
+			sourceTree = "<group>";
+		};
+		D776565B2397F66C00845609 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D77656572397F65700845609 /* RideInfoCellTableViewCell.swift */,
+				D77656582397F65700845609 /* RideInfoCellTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77656252397EFAE00845609 /* Smart Bus Hailing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D776564E2397EFB200845609 /* Build configuration list for PBXNativeTarget "Smart Bus Hailing" */;
+			buildPhases = (
+				D77656222397EFAE00845609 /* Sources */,
+				D77656232397EFAE00845609 /* Frameworks */,
+				D77656242397EFAE00845609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Bus Hailing";
+			productName = "Smart Bus Hailing";
+			productReference = D77656262397EFAE00845609 /* Smart Bus Hailing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D77656392397EFB200845609 /* Smart Bus HailingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77656512397EFB200845609 /* Build configuration list for PBXNativeTarget "Smart Bus HailingTests" */;
+			buildPhases = (
+				D77656362397EFB200845609 /* Sources */,
+				D77656372397EFB200845609 /* Frameworks */,
+				D77656382397EFB200845609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D776563C2397EFB200845609 /* PBXTargetDependency */,
+			);
+			name = "Smart Bus HailingTests";
+			productName = "Smart Bus HailingTests";
+			productReference = D776563A2397EFB200845609 /* Smart Bus HailingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D77656442397EFB200845609 /* Smart Bus HailingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77656542397EFB200845609 /* Build configuration list for PBXNativeTarget "Smart Bus HailingUITests" */;
+			buildPhases = (
+				D77656412397EFB200845609 /* Sources */,
+				D77656422397EFB200845609 /* Frameworks */,
+				D77656432397EFB200845609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77656472397EFB200845609 /* PBXTargetDependency */,
+			);
+			name = "Smart Bus HailingUITests";
+			productName = "Smart Bus HailingUITests";
+			productReference = D77656452397EFB200845609 /* Smart Bus HailingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D776561E2397EFAE00845609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Asad Ali";
+				TargetAttributes = {
+					D77656252397EFAE00845609 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D77656392397EFB200845609 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D77656252397EFAE00845609;
+					};
+					D77656442397EFB200845609 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D77656252397EFAE00845609;
+					};
+				};
+			};
+			buildConfigurationList = D77656212397EFAE00845609 /* Build configuration list for PBXProject "Smart Bus Hailing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D776561D2397EFAE00845609;
+			productRefGroup = D77656272397EFAE00845609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77656252397EFAE00845609 /* Smart Bus Hailing */,
+				D77656392397EFB200845609 /* Smart Bus HailingTests */,
+				D77656442397EFB200845609 /* Smart Bus HailingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77656242397EFAE00845609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77656342397EFB200845609 /* LaunchScreen.storyboard in Resources */,
+				D776565A2397F65700845609 /* RideInfoCellTableViewCell.xib in Resources */,
+				D77656312397EFB200845609 /* Assets.xcassets in Resources */,
+				D776562F2397EFAE00845609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77656382397EFB200845609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77656432397EFB200845609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77656222397EFAE00845609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776562C2397EFAE00845609 /* ViewController.swift in Sources */,
+				D776562A2397EFAE00845609 /* AppDelegate.swift in Sources */,
+				D77656592397F65700845609 /* RideInfoCellTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77656362397EFB200845609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776563F2397EFB200845609 /* Smart_Bus_HailingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77656412397EFB200845609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776564A2397EFB200845609 /* Smart_Bus_HailingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D776563C2397EFB200845609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77656252397EFAE00845609 /* Smart Bus Hailing */;
+			targetProxy = D776563B2397EFB200845609 /* PBXContainerItemProxy */;
+		};
+		D77656472397EFB200845609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77656252397EFAE00845609 /* Smart Bus Hailing */;
+			targetProxy = D77656462397EFB200845609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D776562D2397EFAE00845609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D776562E2397EFAE00845609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D77656322397EFB200845609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77656332397EFB200845609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D776564C2397EFB200845609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D776564D2397EFB200845609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D776564F2397EFB200845609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Bus Hailing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.10pearls.sbh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77656502397EFB200845609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Bus Hailing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.10pearls.sbh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D77656522397EFB200845609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Bus HailingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Asad.Smart-Bus-HailingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bus Hailing.app/Smart Bus Hailing";
+			};
+			name = Debug;
+		};
+		D77656532397EFB200845609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Bus HailingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Asad.Smart-Bus-HailingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bus Hailing.app/Smart Bus Hailing";
+			};
+			name = Release;
+		};
+		D77656552397EFB200845609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Bus HailingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Asad.Smart-Bus-HailingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Bus Hailing";
+			};
+			name = Debug;
+		};
+		D77656562397EFB200845609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Bus HailingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Asad.Smart-Bus-HailingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Bus Hailing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77656212397EFAE00845609 /* Build configuration list for PBXProject "Smart Bus Hailing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776564C2397EFB200845609 /* Debug */,
+				D776564D2397EFB200845609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D776564E2397EFB200845609 /* Build configuration list for PBXNativeTarget "Smart Bus Hailing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776564F2397EFB200845609 /* Debug */,
+				D77656502397EFB200845609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77656512397EFB200845609 /* Build configuration list for PBXNativeTarget "Smart Bus HailingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77656522397EFB200845609 /* Debug */,
+				D77656532397EFB200845609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77656542397EFB200845609 /* Build configuration list for PBXNativeTarget "Smart Bus HailingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77656552397EFB200845609 /* Debug */,
+				D77656562397EFB200845609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D776561E2397EFAE00845609 /* Project object */;
+}
